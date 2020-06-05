@@ -9,6 +9,9 @@ elsif phrase == "I LOVE YOU GRANDMA!"
 else phrase == phrase.upcase speak_to_grandma 
   puts "NO, NOT SINCE 1938"
 end
+end
+
+puts speak_to_grandma("I LOVE YOU GRANDMA")
   
 
 # Whatever you say to grandma, she should respond with
